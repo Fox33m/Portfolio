@@ -1,35 +1,39 @@
-# Marco Sansilvestri — Portfolio
+# Marco Sansilvestri | Portfolio 2026
 
-Portfolio personale statico, responsive e pubblicabile su GitHub Pages. I contenuti provengono dal portfolio PowerPoint; video e fotografie sono conservati in `assets/`.
+Welcome to my personal portfolio!
 
-## Struttura del progetto
+This repository contains my portfolio website, showcasing selected projects in photography, video production, digital communication, and web development.
 
-```text
-index.html       Struttura e testi della pagina
-style.css        Impaginazione, grafica e media query (tablet / mobile)
-script.js        Menu mobile e anno del footer
-assets/          Fotografie con nomi descrittivi, Logo_Marco.svg e video MP4
-.nojekyll        Permette la pubblicazione statica con GitHub Pages
-```
+##  How to view the portfolio
 
-I nomi delle fotografie identificano **prodotto e contesto** (es. `lexgo_miro_lungomare.webp`). Le immagini sono in WebP per ridurre il peso; le dimensioni sono gestite con percentuali, `aspect-ratio`, `object-fit` e limiti quando opportuno.
+To open and explore the portfolio:
 
-## Pubblicazione su GitHub Pages
+1. Go to the **Code** section of this repository.
+2. Click on the **green "Code" button** above the file list.
+3. Select **Download ZIP**.
+4. Extract the downloaded ZIP file to a folder on your computer.
+5. Open the extracted folder and double-click **`index.html`**.
+6. The portfolio will automatically open in your default web browser.
 
-1. Crea un repository pubblico su GitHub, ad esempio `portfolio`.
-2. Carica **il contenuto** di questa cartella nella radice del repository, non la cartella contenitore. Assicurati che `index.html` sia nella radice.
-3. Apri **Settings → Pages** nel repository.
-4. In *Build and deployment* scegli **Deploy from a branch**, branch `main`, cartella `/(root)` e salva.
-5. Il sito sarà raggiungibile all'indirizzo `https://TUO-USERNAME.github.io/portfolio/`.
+**Note:** An internet connection is not required to view the local website, although external links or resources may require one.
 
-## Anteprima locale e manutenzione
+---
 
-Apri `index.html` con Chrome/Edge oppure, per un ambiente più vicino a GitHub Pages, esegui `python -m http.server 8000` dalla cartella del progetto e visita `http://localhost:8000`.
+# Marco Sansilvestri | Portfolio 2026
 
-- Modifica testi, contenuti e percorsi delle immagini in `index.html`.
-- Modifica colori e layout in `style.css`; le regole responsive sono raggruppate in fondo al file.
-- Il JavaScript si limita all'apertura/chiusura del menu mobile e all'anno del footer.
-- Mantieni insieme la cartella `assets` e i file principali.
-- `assets/lexgo-facility.mp4` è un video HTML5 di circa 21 MB; non eliminarlo.
+Benvenuto nel mio portfolio personale!
 
-Il layout carica i font Google quando è disponibile internet, con fallback di sistema.
+Questo repository contiene il sito web del mio portfolio, che raccoglie alcuni dei progetti realizzati nell'ambito della fotografia, della produzione video, della comunicazione digitale e dello sviluppo web.
+
+##  Come visualizzare il portfolio
+
+Per aprire e consultare il portfolio:
+
+1. Accedi alla sezione **Code** di questo repository.
+2. Clicca sul **pulsante verde "Code"** presente sopra l'elenco dei file.
+3. Seleziona **Download ZIP**.
+4. Estrai il file ZIP scaricato in una cartella del computer.
+5. Apri la cartella estratta e fai doppio clic sul file **`index.html`**.
+6. Il portfolio si aprirà automaticamente nel browser predefinito.
+
+**Nota:** Per visualizzare il sito in locale non è necessaria una connessione Internet, fatta eccezione per eventuali collegamenti o risorse esterne.
